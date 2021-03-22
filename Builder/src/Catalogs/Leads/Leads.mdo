@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c48f824-efe1-47b3-abf9-f474bb97004d">
+  <producedTypes>
+    <objectType typeId="c94f1f19-e2ae-4c37-9c60-b7c9fbae79af" valueTypeId="37b84dae-70f7-45fb-93f2-3df1fd69719c"/>
+    <refType typeId="8b6cf3e8-c754-4e8f-974b-5cbdd6dd7861" valueTypeId="65adc522-fa22-4c7e-8c25-00dea0d71180"/>
+    <selectionType typeId="6a395989-0a0b-485f-93bc-7d770b603ec5" valueTypeId="653e900b-0cac-4288-a349-ac1775c46de4"/>
+    <listType typeId="89d9bee5-e5fe-4ac0-9235-718a53741a78" valueTypeId="649a4839-d920-43c9-85ae-fe5adf7819f2"/>
+    <managerType typeId="a6f2b660-6086-48b3-a2ed-0dfceb02eb45" valueTypeId="5faa9970-febd-4e6b-a181-97a8ce17a7f8"/>
+  </producedTypes>
+  <name>Leads</name>
+  <synonym>
+    <key>en</key>
+    <value>Leads</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Leads.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Leads.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="92d4cc67-e17c-4476-b1ed-0df5375a9b20">
+    <name>Telephone</name>
+    <synonym>
+      <key>en</key>
+      <value>Telephone</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aad7e367-d257-4b20-ab53-55782a1974ff">
+    <name>CountryCode</name>
+    <synonym>
+      <key>en</key>
+      <value>Country code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f8f59e5-1527-4125-9127-e61ee561bc32">
+    <name>ResponsiblePerson</name>
+    <synonym>
+      <key>en</key>
+      <value>Responsible person</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

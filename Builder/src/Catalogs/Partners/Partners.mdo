@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9c353a6-d2d0-43a4-aded-ecf042086f8f">
+  <producedTypes>
+    <objectType typeId="0f9a755f-9d92-4277-a57c-9d59de4b9cc5" valueTypeId="aea41f02-8f5b-44ba-b6c3-188ba8915b22"/>
+    <refType typeId="52e96026-cdc8-429a-84dc-3f119ff0880b" valueTypeId="a42b37c5-59a0-40ab-a976-0e373be923e7"/>
+    <selectionType typeId="3437a268-18f6-4277-9e02-b16b1e8f262a" valueTypeId="64a9f41d-c542-4414-8dfd-dd4cbf2915f7"/>
+    <listType typeId="fd1580a2-94b8-427f-8420-33d87ab16684" valueTypeId="19b590c0-8bca-4d59-a550-8fe592d2de92"/>
+    <managerType typeId="6ff6b6f2-3820-4cb3-9eb6-04af2928b4dc" valueTypeId="cdbc1606-db50-47c1-81f7-3db64c1015dc"/>
+  </producedTypes>
+  <name>Partners</name>
+  <synonym>
+    <key>en</key>
+    <value>Partners</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Partners.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Partners.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="309ddcb3-00d8-4c0e-ad50-55c557b7b0ca">
+    <name>Tel</name>
+    <synonym>
+      <key>en</key>
+      <value>Tel</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18a7839b-25db-45b5-aa74-f373a5783f7a">
+    <name>Debt</name>
+    <synonym>
+      <key>en</key>
+      <value>Debt</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aa84dda8-e80f-4fae-a1a8-47db0b809f6e">
+    <name>Manager</name>
+    <synonym>
+      <key>en</key>
+      <value>Manager</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be523ffd-4c9c-435a-bd7e-6891a0153b57">
+  <producedTypes>
+    <objectType typeId="7e6d459f-4361-4589-981e-4d3e5e4778ce" valueTypeId="f660087b-d6e8-41a9-86dd-5fb978448055"/>
+    <managerType typeId="f3f8c758-f69a-4f2b-b7d7-c5b133177a69" valueTypeId="8405f69b-9194-466d-96d0-68c2c6cd9ba0"/>
+  </producedTypes>
+  <name>LeadsBuilder</name>
+  <synonym>
+    <key>en</key>
+    <value>Leads builder</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

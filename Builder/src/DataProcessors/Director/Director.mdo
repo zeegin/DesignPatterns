@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab657a58-27a7-4841-84d1-7e90704c09df">
+  <producedTypes>
+    <objectType typeId="14550cb6-9380-4fed-a69b-6d0055035a90" valueTypeId="df73679e-a9e2-4e75-9b21-39c3a00d91e9"/>
+    <managerType typeId="8949a863-cda7-46b7-b9f9-861bb8c4ff67" valueTypeId="1e5025fa-35ac-4508-a54b-40f15d9d3765"/>
+  </producedTypes>
+  <name>Director</name>
+  <synonym>
+    <key>en</key>
+    <value>Director</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e488a44-927c-4c21-8013-5666a5f49267">
+  <producedTypes>
+    <objectType typeId="d3bf3ceb-643b-424c-bbfe-6e7521c33782" valueTypeId="25baa218-d9ec-4ee6-b68b-9bca18dade10"/>
+    <managerType typeId="cd86c688-3bb9-4fea-a06d-ce2bd6abe182" valueTypeId="1bb90d61-8084-43f7-b7d1-b4d2a6426347"/>
+  </producedTypes>
+  <name>PartnersBuilder</name>
+  <synonym>
+    <key>en</key>
+    <value>Partners builder</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
