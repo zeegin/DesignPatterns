@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34947790-900d-4080-b1bc-87b322c8c157">
+  <name>FactoryMethod</name>
+  <synonym>
+    <key>en</key>
+    <value>Factory method</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="88c21330-01bf-4f53-9635-b92ce581d355"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3b996e63-463f-4ea1-a845-928bd6170f26"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f62087e0-cf89-45a8-a734-1680cb12e532"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3b174d45-4192-4d3a-8630-f11bef745fb6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="930ea573-6e5d-42ba-8f4d-bd5769e9216e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d1619464-2102-447e-9890-07567ebd288c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a6235bde-da6c-4342-bbef-e365b576b344"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="57d33648-644c-4a8b-ad21-929d95e24591">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonModules>CommonModule.ClientSpecific</commonModules>
+  <commonModules>CommonModule.Initialize</commonModules>
+  <commonModules>CommonModule.WebClientSpecific</commonModules>
+  <dataProcessors>DataProcessor.COMWrapper</dataProcessors>
+  <dataProcessors>DataProcessor.HTMLWrapper</dataProcessors>
+</mdclass:Configuration>

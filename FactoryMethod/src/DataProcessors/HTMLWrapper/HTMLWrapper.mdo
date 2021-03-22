@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf2e4369-93ec-4be1-b391-f23b492fff47">
+  <producedTypes>
+    <objectType typeId="a58ca8c0-89a5-4a51-a2a8-fb47ddbdc200" valueTypeId="de9a9c43-8bcd-4f1e-bcf0-c13e26a86de3"/>
+    <managerType typeId="f4ebbac4-8e1d-4767-94c5-abc047ec7397" valueTypeId="9a0cb778-b9a9-4c7a-929e-04ef84da5551"/>
+  </producedTypes>
+  <name>HTMLWrapper</name>
+  <synonym>
+    <key>en</key>
+    <value>HTMLWrapper</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

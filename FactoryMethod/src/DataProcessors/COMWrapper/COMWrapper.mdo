@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="250a3c46-ef57-487a-97d5-f87a4f78da51">
+  <producedTypes>
+    <objectType typeId="106a2374-7b79-48d5-b11a-c9f7c50308fd" valueTypeId="ff92bf1b-c5f4-4c24-a342-4b6e1ef7bf2f"/>
+    <managerType typeId="87072a4c-612d-4d2a-baab-b7db7b82d707" valueTypeId="950874d6-cdd0-4dcc-a0f6-8c6c35902e0a"/>
+  </producedTypes>
+  <name>COMWrapper</name>
+  <synonym>
+    <key>en</key>
+    <value>COMWrapper</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
