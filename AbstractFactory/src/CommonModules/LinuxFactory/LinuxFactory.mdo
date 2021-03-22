@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e12194d-1c2a-4c5f-be8b-b872348ba35f">
+  <name>LinuxFactory</name>
+  <synonym>
+    <key>en</key>
+    <value>Linux factory</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

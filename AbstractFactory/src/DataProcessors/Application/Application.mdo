@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93c27bac-8a13-4c69-8257-c67d28bbe0df">
+  <producedTypes>
+    <objectType typeId="7dd0be28-b82c-4a88-904c-a50f752fa0a4" valueTypeId="bc57d659-1cea-4014-b755-01fdcb6e0751"/>
+    <managerType typeId="8a81ff15-ae90-4b6b-a283-a010695704e5" valueTypeId="3882d37e-a100-498a-85fc-f8fab5528cf6"/>
+  </producedTypes>
+  <name>Application</name>
+  <synonym>
+    <key>en</key>
+    <value>Application</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
