@@ -1,6 +1,6 @@
 #Region Public
 
-Function Init(Parameters) Export
+Function Init(ObjectHTMLOrCOM) Export
 	
 	If IsWebClient() Then
 		ModuleSpecific = WebClientSpecific;
@@ -9,6 +9,8 @@ Function Init(Parameters) Export
 	EndIf;
 	
 	Wrapper = ModuleSpecific.CreateWrapper();
+	
+	Result = Wrapper.Init(ObjectHTMLOrCOM);
 	
 EndFunction
 
