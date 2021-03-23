@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="037f3311-5153-47bc-865f-ae4d1709f9ed">
+  <producedTypes>
+    <objectType typeId="dd93daea-ca3a-4db6-a827-b5c0afa430f9" valueTypeId="b16a90ec-f485-4c4f-84ca-ae76ce64766d"/>
+    <refType typeId="713c0d65-63c0-46e0-ae24-f5c746d2c28d" valueTypeId="df7e8c09-76b4-48f9-8c80-1b070d5cbfdd"/>
+    <selectionType typeId="c6cd02b1-b0a1-48a8-aea2-49b62653e962" valueTypeId="bd4bdbb2-ad99-4454-89ca-8aa54bcb5982"/>
+    <listType typeId="19e4d9fa-50eb-4bac-8f5e-14bf0b5ea2e8" valueTypeId="0084c753-54d6-48f2-89b5-678747bb32bb"/>
+    <managerType typeId="377fa2a2-4839-4cac-b342-4ba429866027" valueTypeId="9a10400f-5fd0-4f69-8260-4442dafa0c8c"/>
+  </producedTypes>
+  <name>Picklist</name>
+  <synonym>
+    <key>en</key>
+    <value>Picklist</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Picklist.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0783a1f8-f6da-4440-90b0-d9f5eb8d4ffd">
+    <name>ResponsiblePerson</name>
+    <synonym>
+      <key>en</key>
+      <value>Responsible person</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b01e3206-6839-4934-b15c-b8d4b32f196b">
+    <producedTypes>
+      <objectType typeId="ee2ea32c-1597-4576-884c-ad6b9d2cfc5d" valueTypeId="dc64910a-3833-4a32-b242-6ab02f548110"/>
+      <rowType typeId="f537f5a5-1bb5-41e8-b062-ce0669c6e267" valueTypeId="c3234834-389d-4e3b-88e7-244d1bbf119e"/>
+    </producedTypes>
+    <name>Products</name>
+    <synonym>
+      <key>en</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="6d6f1ad5-e9df-4a4f-bfd2-603399130502">
+      <name>Product</name>
+      <synonym>
+        <key>en</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Products</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="73657ef0-c2a3-44b0-bc58-68f1e3ebfe85">
+      <name>Quantity</name>
+      <synonym>
+        <key>en</key>
+        <value>Quantity</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

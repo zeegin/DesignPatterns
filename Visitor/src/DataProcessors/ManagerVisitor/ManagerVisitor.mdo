@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d162e54a-7544-48e2-bef8-ad99d8bd5edf">
+  <producedTypes>
+    <objectType typeId="947592cb-a617-4b3e-abdb-1ba1710cbb85" valueTypeId="e9459d75-66fe-463f-9c33-8afed40b343f"/>
+    <managerType typeId="17adbcd9-b410-440b-b46c-ea8a05e1b22e" valueTypeId="ff4bf008-1faa-4d42-aa2b-8cd6ce2a4aeb"/>
+  </producedTypes>
+  <name>ManagerVisitor</name>
+  <synonym>
+    <key>en</key>
+    <value>Manager visitor</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

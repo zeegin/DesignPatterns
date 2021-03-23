@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5751c77d-37bf-4368-b61e-e901276c9ad4">
+  <producedTypes>
+    <objectType typeId="e13393e2-f088-43b7-a96f-3da17616e48d" valueTypeId="e02ec66a-c43a-4914-b55b-61cbc18cc8f7"/>
+    <refType typeId="4ad2eb1b-0484-4365-848d-1c604b102e9f" valueTypeId="bf646bb1-2adc-4d74-8414-211a510e9160"/>
+    <selectionType typeId="46b22e2c-60f2-4258-9f70-57d190995611" valueTypeId="eca96107-ebe3-4a96-9ac0-45897b8d635c"/>
+    <listType typeId="07d78c1c-9e59-4896-a71f-d53d75a0580c" valueTypeId="86cd3d21-7597-4ed6-9775-f5970ce563cf"/>
+    <managerType typeId="36fb4ba4-f96a-45cc-b141-740cd70487f5" valueTypeId="0a364850-b9a4-44ca-bdaf-87cde079b118"/>
+  </producedTypes>
+  <name>SalesOrder</name>
+  <synonym>
+    <key>en</key>
+    <value>Sales order</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.SalesOrder.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e014b83b-a345-4577-b959-788e97a98727">
+    <name>Manager</name>
+    <synonym>
+      <key>en</key>
+      <value>Manager</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Users</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0ce7191f-95ba-4f45-9203-8302fac90008">
+    <producedTypes>
+      <objectType typeId="72dfcc20-81bd-48e2-9415-b72ee015a3e4" valueTypeId="376848c0-bd77-4e32-ba69-36ee297437d6"/>
+      <rowType typeId="09a20cfa-198f-46c8-9812-da0bc6757c17" valueTypeId="eba0161c-9b8f-4de3-aec1-263a6b9d8051"/>
+    </producedTypes>
+    <name>Products</name>
+    <synonym>
+      <key>en</key>
+      <value>Products</value>
+    </synonym>
+    <attributes uuid="c8abfeff-13d4-411d-8caa-53fce249bb95">
+      <name>Product</name>
+      <synonym>
+        <key>en</key>
+        <value>Product</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Products</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="14352000-3475-4781-984d-c55b3f941e78">
+      <name>Qty</name>
+      <synonym>
+        <key>en</key>
+        <value>Qty</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

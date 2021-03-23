@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73cbd269-d6c6-4618-9afd-45a1e5d50db2">
+  <name>Visitor</name>
+  <synonym>
+    <key>en</key>
+    <value>Visitor</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3d8c6ece-5cb9-4b8c-839c-a1caf32cd3e9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c7be0a50-9018-4b77-9cac-383d6fc70cac"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="eea36f8f-f96c-4ef5-8df1-c6ac50dd8a7f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="5891f13a-0060-41a5-89a1-79e45114f495"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="458bfd2f-4180-4f9f-9ef8-40a62105311f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ee5cd5e7-8a0e-4ec5-8121-f7eb6fa60be4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="116e7f72-cd7e-424b-9cae-01e736ff847a"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="b6f4626b-6b44-4d68-b98b-ac5a9dacec42">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonModules>CommonModule.Initialize</commonModules>
+  <commonModules>CommonModule.ProductsTableVisitor</commonModules>
+  <catalogs>Catalog.Products</catalogs>
+  <catalogs>Catalog.Users</catalogs>
+  <documents>Document.Picklist</documents>
+  <documents>Document.SalesOrder</documents>
+  <dataProcessors>DataProcessor.ManagerVisitor</dataProcessors>
+</mdclass:Configuration>

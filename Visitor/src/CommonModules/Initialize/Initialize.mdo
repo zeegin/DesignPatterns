@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83551ba4-032e-480a-9bf3-5d61ee4ac1ec">
+  <name>Initialize</name>
+  <synonym>
+    <key>en</key>
+    <value>Initialize</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
