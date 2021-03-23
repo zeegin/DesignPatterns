@@ -7,15 +7,16 @@ Function Init() Export
 	Collection.Add("Second");
 	Collection.Add("Third");
 	
-	While Collection.Iterator(True).Next() Do
-		Value = Collection.Iterator().Value();
+	Iterator = Collection.Iterator(True);
+	While Iterator.Next() Do
+		Value = Iterator.Value();
 	EndDo;
 	
 	// Reverse itarative
 	// = Third
 	// = Second
 	// = First
-		
+	
 EndFunction
 
 #EndRegion
