@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c1a51be-337f-4f37-84ae-d244d6889bc4">
+  <name>BackgroundWorker</name>
+  <synonym>
+    <key>en</key>
+    <value>Background worker</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
