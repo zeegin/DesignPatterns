@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4f7b75d-8a8b-437b-a430-d338d05e120b">
+  <name>Strategy</name>
+  <synonym>
+    <key>en</key>
+    <value>Strategy</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1555264f-8fe3-4867-9f38-7bd4ab01825d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5874bdef-e28a-46f7-b41d-de08b18e85ee"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c4649b5d-e723-4a23-aff1-d2b1883ec1d5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a6fc5f45-95af-4bc2-9c7b-245b0c605625"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="ecbb87b6-5433-4820-a46a-01b09042e76a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c628f10c-e9f4-48b9-aa14-482398b7b11e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f7d9c293-c49e-4918-9aae-f3911aae5047"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="b1607979-8f8c-4bf5-8184-fb202271bc71">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonModules>CommonModule.Initialize</commonModules>
+  <catalogs>Catalog.Partners</catalogs>
+  <dataProcessors>DataProcessor.SMSStrategy</dataProcessors>
+  <dataProcessors>DataProcessor.TelegramStrategy</dataProcessors>
+  <dataProcessors>DataProcessor.EmailStrategy</dataProcessors>
+  <dataProcessors>DataProcessor.Context</dataProcessors>
+</mdclass:Configuration>

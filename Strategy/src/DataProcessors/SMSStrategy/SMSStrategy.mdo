@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ab63039-cbc1-461d-9f93-cd4b1345df8c">
+  <producedTypes>
+    <objectType typeId="336fdc3f-e892-425d-a963-1a850af6cff7" valueTypeId="c9255ac4-d473-402d-a7a8-a8e874de7473"/>
+    <managerType typeId="d589e119-2c2f-4fcb-a9ee-12ebb65b4c11" valueTypeId="405823f2-1a72-4f3e-9e12-cc3488183680"/>
+  </producedTypes>
+  <name>SMSStrategy</name>
+  <synonym>
+    <key>en</key>
+    <value>SMSStrategy</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1cb4623-28ed-40f8-8a75-a80379c7d86e">
+  <producedTypes>
+    <objectType typeId="55a20923-0c48-4c00-a7b9-f58858dada4b" valueTypeId="d21f7af7-0dca-4440-9f15-515e51b59b85"/>
+    <managerType typeId="1ecb6fde-2432-4a4d-b4e6-aa3e08f7989b" valueTypeId="f304d1b5-b6e9-4f31-9ba3-276b5dbbe58c"/>
+  </producedTypes>
+  <name>TelegramStrategy</name>
+  <synonym>
+    <key>en</key>
+    <value>Telegram strategy</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

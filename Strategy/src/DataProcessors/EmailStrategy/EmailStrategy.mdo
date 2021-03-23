@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="665ec664-e57c-4c81-a3ed-967a48d71d0e">
+  <producedTypes>
+    <objectType typeId="ab80171f-4481-46bb-9884-2edc94bb4753" valueTypeId="0c777b13-0c6d-4757-ae77-b7fcce70dffc"/>
+    <managerType typeId="e0502c6a-c438-4fd4-94c9-ebf2a82de97c" valueTypeId="9d092045-e434-4988-9acc-4888f7b4b99f"/>
+  </producedTypes>
+  <name>EmailStrategy</name>
+  <synonym>
+    <key>en</key>
+    <value>Email strategy</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

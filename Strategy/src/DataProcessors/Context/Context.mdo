@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5c45f96-828d-4bee-9185-040a1b43c5fe">
+  <producedTypes>
+    <objectType typeId="58293f78-3d90-4553-8427-25d5b289ea88" valueTypeId="94efbee3-0414-46c1-9127-3e73d1759af8"/>
+    <managerType typeId="bb2985cf-3e26-48d7-9111-538394944554" valueTypeId="c5a095da-7e4f-47fa-a0c0-376bcb19a538"/>
+  </producedTypes>
+  <name>Context</name>
+  <synonym>
+    <key>en</key>
+    <value>Context</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="6be2b42f-d47b-4d3d-8778-84beec76d56b">
+    <name>Partner</name>
+    <synonym>
+      <key>en</key>
+      <value>Partner</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Partners</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>
