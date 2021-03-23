@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e53a796-84b9-42da-bfa2-8ea449ee5a44">
+  <producedTypes>
+    <objectType typeId="2bca1056-efb5-4ed0-beb0-4af97b03b9e9" valueTypeId="c69bec59-4d02-46b2-ae69-88fa30f0f2f5"/>
+    <managerType typeId="265c75e0-6db2-41ac-8a40-bba1394c497a" valueTypeId="4b2423ad-e90a-49ca-a335-3e79d125d028"/>
+  </producedTypes>
+  <name>AlphabeticalOrderIterator</name>
+  <synonym>
+    <key>en</key>
+    <value>Alphabetical order iterator</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

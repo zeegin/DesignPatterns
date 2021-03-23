@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b73de765-9385-44d1-ab16-7a75b3f78977">
+  <producedTypes>
+    <objectType typeId="22563b02-3987-4167-9cb7-5b7ebc67f847" valueTypeId="04352cfe-4dad-44e4-ae17-3ad41bf1c098"/>
+    <managerType typeId="00910df8-9906-472d-b2c8-07f992a6e838" valueTypeId="57759620-95f6-4a79-bddd-d6ac2487e9d9"/>
+  </producedTypes>
+  <name>WordsCollection</name>
+  <synonym>
+    <key>en</key>
+    <value>Words collection</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

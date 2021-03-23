@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f214f373-6a9c-45f3-86d2-715df39eaca0">
+  <name>Iterator</name>
+  <synonym>
+    <key>en</key>
+    <value>Iterator</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="60346eab-cf17-45c0-a5bb-1896aca24f4f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f7cba6c0-32e9-451d-8ae1-85576995b46a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="dee06d31-21c6-43ad-b9c9-4b31ab43bb28"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e0651cd3-ffb6-4c25-ad88-bfcc25f8d52c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b6b64038-7a6c-4105-b615-930018adb256"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="1244d1cc-fc43-43d0-8ebe-01c7c07c57db"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4ffbc274-1dba-4a24-8cdf-b6eade2c7f50"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="35913ea9-eb33-474f-9a69-783cb12930bc">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonModules>CommonModule.Initialize</commonModules>
+  <dataProcessors>DataProcessor.WordsCollection</dataProcessors>
+  <dataProcessors>DataProcessor.AlphabeticalOrderIterator</dataProcessors>
+</mdclass:Configuration>
