@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cf5ba72-91d4-4119-a747-8fa138d856db">
+  <name>StocktakingStateLocked</name>
+  <synonym>
+    <key>en</key>
+    <value>Stocktaking state locked</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

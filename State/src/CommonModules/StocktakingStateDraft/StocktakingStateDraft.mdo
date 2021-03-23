@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d905bb15-f989-48de-93fb-e164f3d71e66">
+  <name>StocktakingStateDraft</name>
+  <synonym>
+    <key>en</key>
+    <value>Stocktaking state draft</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

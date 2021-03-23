@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c6b9f1-6b13-4b0a-9436-b4cfdf0fffb4">
+  <producedTypes>
+    <objectType typeId="ac36e9de-6c3b-4dd7-bbff-a5356be77526" valueTypeId="4f0e4835-3080-426a-a1a8-8200c9016a0a"/>
+    <refType typeId="243d53f8-4503-4edf-bf38-e1f75a573d13" valueTypeId="b42d5aea-8ce1-4e10-b155-800bd79f66dd"/>
+    <selectionType typeId="cfe2aaa0-2fa0-43ca-a5dc-792b1ff87212" valueTypeId="09cb05d7-9406-48ee-893a-826a37b97302"/>
+    <listType typeId="7e9aff08-ba32-4f0b-a324-fbff86133a24" valueTypeId="d6de6a93-33fa-455e-9999-0956d1609242"/>
+    <managerType typeId="72d06a6d-cc36-43dc-b584-f6ceed630a0f" valueTypeId="ee882257-90ea-4cfd-8ce8-4399d76561e8"/>
+  </producedTypes>
+  <name>Stocktaking</name>
+  <synonym>
+    <key>en</key>
+    <value>Stocktaking</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Stocktaking.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="50adb40d-b57a-4bf6-b016-a5fe7042d60b">
+    <name>State</name>
+    <synonym>
+      <key>en</key>
+      <value>State</value>
+    </synonym>
+    <type>
+      <types>EnumRef.StocktakingState</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

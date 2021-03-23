@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d62cf12-8ca7-471c-9680-1090331dda64">
+  <name>StocktakingStateInProcess</name>
+  <synonym>
+    <key>en</key>
+    <value>Stocktaking state in process</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

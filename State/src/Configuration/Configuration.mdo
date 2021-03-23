@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5e83862-4fe1-43ad-a9b6-780c9b499dc2">
+  <name>State</name>
+  <synonym>
+    <key>en</key>
+    <value>State</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4bc7f0cd-6818-4ec3-a6a9-4a6d13107d67"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ffdd28f7-35ef-48f7-b02a-23c8e36194f2"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="97e94aaa-4ebf-4eec-980b-82e1d6592311"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="70cb921d-6ed9-40ff-a0a8-ec6afb956643"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="78127707-6b60-4ced-8b40-0f8aa74842b4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6695e9c4-9b01-47d9-ba4c-2de0d0b45acc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="380249e9-d813-491b-832a-b67b63b753e5"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="c6334ef2-9c67-4ec4-b0cc-4bdbf7d90ddc">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonModules>CommonModule.StocktakingStateDraft</commonModules>
+  <commonModules>CommonModule.StocktakingStateReady</commonModules>
+  <commonModules>CommonModule.StocktakingStateInProcess</commonModules>
+  <commonModules>CommonModule.StocktakingStateLocked</commonModules>
+  <documents>Document.Stocktaking</documents>
+  <enums>Enum.StocktakingState</enums>
+</mdclass:Configuration>

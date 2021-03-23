@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="237b4798-633a-44dd-8e05-ad8eb93b0e8c">
+  <producedTypes>
+    <refType typeId="0add66f3-fc50-4789-96c2-e2d4158b2cc9" valueTypeId="c81ce256-aff4-49b6-a447-8bbed0673809"/>
+    <listType typeId="ca6b7872-6a1d-4393-be19-30ac4c8681e5" valueTypeId="4fe0e5a8-00ec-45e9-b25b-b5df659e6389"/>
+    <managerType typeId="96e44da7-25ac-4dee-a2a6-6f7820765681" valueTypeId="03dae3ca-39b7-4e9c-b135-2134c7a0b444"/>
+  </producedTypes>
+  <name>StocktakingState</name>
+  <synonym>
+    <key>en</key>
+    <value>Stocktaking state</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16db97c2-928b-40af-8f89-59bbb8457672">
+    <name>Draft</name>
+    <synonym>
+      <key>en</key>
+      <value>Draft</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7ae4bff-5c7c-4794-8dd3-ff523a1c0d45">
+    <name>Ready</name>
+    <synonym>
+      <key>en</key>
+      <value>Ready</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c88b977-2b16-44b0-8692-ff8bfbe9bb3c">
+    <name>InProcess</name>
+    <synonym>
+      <key>en</key>
+      <value>In process</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf00e8fd-738f-4637-a151-1988b27bec29">
+    <name>Locked</name>
+    <synonym>
+      <key>en</key>
+      <value>Locked</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
