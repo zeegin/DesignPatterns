@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c6d8b4c-2770-4546-ab9e-45a306388126">
+  <producedTypes>
+    <objectType typeId="fda564ba-6a5b-408a-a4c5-f257920d6ad6" valueTypeId="1122afa0-7ac1-4c60-8d02-744fd44d46a2"/>
+    <refType typeId="aa8d5512-ac89-4b93-9dbe-57c7c5c1ab93" valueTypeId="f78e6b88-5e1f-4175-bae8-a327cd79bc96"/>
+    <selectionType typeId="d21f24a0-422d-4661-989c-fd56b696e680" valueTypeId="1960224f-3758-4cfd-aeff-cafe667c329b"/>
+    <listType typeId="51719aea-81b6-421f-bea4-523c096f700f" valueTypeId="0f975ab8-f033-44bc-9cfb-6c88de42e107"/>
+    <managerType typeId="bc6516aa-ab5c-49f0-91cb-228d22eb3b42" valueTypeId="2d3ce6e5-9425-4a72-933e-e93fdd8fa412"/>
+  </producedTypes>
+  <name>SalesOrder</name>
+  <synonym>
+    <key>en</key>
+    <value>Sales order</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.SalesOrder.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

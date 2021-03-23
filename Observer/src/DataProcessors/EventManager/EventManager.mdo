@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c420f5c3-473d-45ea-bd3f-518c9a0d8c25">
+  <producedTypes>
+    <objectType typeId="e7c95706-392a-4a4c-9b0c-4f3bb8433cbd" valueTypeId="b9736e3b-4d07-4531-99ba-a01a9cc5985a"/>
+    <managerType typeId="08cc8c0d-d777-48dd-af55-95fc19ca467d" valueTypeId="7bae8e31-c501-42b0-bbba-773a78c32678"/>
+  </producedTypes>
+  <name>EventManager</name>
+  <synonym>
+    <key>en</key>
+    <value>Event manager</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
