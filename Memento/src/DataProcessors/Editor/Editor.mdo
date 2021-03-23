@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c1a7c98-f7a7-41e2-b945-eb50eaa79a32">
+  <producedTypes>
+    <objectType typeId="ecd11b69-8014-445f-94a8-6592fb65d56e" valueTypeId="b6ef1ef8-2afb-4c9e-95b1-82052fce2298"/>
+    <managerType typeId="0ad56879-540c-4a8c-a169-99c7da3e2d15" valueTypeId="d756172f-446d-41fb-898f-8b9f6dfa72c0"/>
+  </producedTypes>
+  <name>Editor</name>
+  <synonym>
+    <key>en</key>
+    <value>Editor</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="24dc947d-88b7-4549-8ff7-5fbadc9a8e35">
+    <name>Value</name>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bc7cda72-6d18-4019-a84b-a9ff970ea8d4">
+    <name>Data</name>
+    <synonym>
+      <key>en</key>
+      <value>Data</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="478bfe5d-ab13-41ac-b5bd-eae388365dc9">
+    <producedTypes>
+      <objectType typeId="b8a2f215-2e8c-4829-b8bc-1257da8b111d" valueTypeId="48cee4df-0cd4-4e60-b37d-4f3167b6976c"/>
+      <rowType typeId="518aad58-f38a-4d9a-aefa-686369e8808d" valueTypeId="efeef7f0-f0e8-48e2-88b8-f957c6c5679e"/>
+    </producedTypes>
+    <name>Table</name>
+    <synonym>
+      <key>en</key>
+      <value>Table</value>
+    </synonym>
+    <attributes uuid="49ef99f7-f00b-4d2e-86c6-49dc6cd0ef35">
+      <name>Key</name>
+      <synonym>
+        <key>en</key>
+        <value>Key</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="677616dc-fd2c-4bd7-bb0c-2ecf739b02bb">
+      <name>Val</name>
+      <synonym>
+        <key>en</key>
+        <value>Val</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+</mdclass:DataProcessor>
