@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61c2ae4a-91c1-4dd3-8714-6ff9ccc5598a">
+  <producedTypes>
+    <objectType typeId="87b84a6c-7e8c-4293-9a26-218586241642" valueTypeId="91d8e711-75d3-41f9-9fea-9be20c9b1d18"/>
+    <managerType typeId="d95fb6be-094f-4e14-9c6f-aba71143810f" valueTypeId="501fe74d-7e79-4df0-863e-b2b6f7870336"/>
+  </producedTypes>
+  <name>DeserializeProductsHandler</name>
+  <synonym>
+    <key>en</key>
+    <value>Deserialize products handler</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

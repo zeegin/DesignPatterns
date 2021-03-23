@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96425ecf-f4ef-4ea0-af87-d544cc85ccbc">
+  <producedTypes>
+    <objectType typeId="71e5d961-6f1d-46ac-bf22-efd2f19870f0" valueTypeId="6183b21c-a7a7-46da-9389-8cf672d91995"/>
+    <managerType typeId="4b4c336c-3495-44a2-948f-c5d0283ec865" valueTypeId="29e5e712-1a03-4591-a154-8f8d29188fa5"/>
+  </producedTypes>
+  <name>DeserializePartnerHandler</name>
+  <synonym>
+    <key>en</key>
+    <value>Deserialize partner handler</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="940d7959-d90e-43a9-a6a1-df7e9dd0eaf6">
+  <producedTypes>
+    <objectType typeId="c446b9a3-48b3-49de-85a9-646f7418496d" valueTypeId="9a78e739-6d61-4868-9992-466ec87e06d3"/>
+    <managerType typeId="84ffe758-9f72-4748-9879-2283374c1e61" valueTypeId="733e6900-1b5f-47d8-bcab-7e6b268e1ea5"/>
+  </producedTypes>
+  <name>BaseHandler</name>
+  <synonym>
+    <key>en</key>
+    <value>Base handler</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

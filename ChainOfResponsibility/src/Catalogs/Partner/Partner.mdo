@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9f0ac85-44ae-4820-a048-89e8aaba1cb0">
+  <producedTypes>
+    <objectType typeId="4c82082d-9054-41e4-a6e8-d72de8debeca" valueTypeId="cf68578d-8ff5-4b9d-a50a-ae688ccba336"/>
+    <refType typeId="2fa272e5-fc4a-4332-8c3e-1ccce29f46c4" valueTypeId="27ed630e-901e-4dcf-9e4f-f48fc6a45073"/>
+    <selectionType typeId="6aa77ba7-12df-4da4-af2e-1a82cc0cf8b0" valueTypeId="6f8071a6-4368-4474-9976-e1acc3501be4"/>
+    <listType typeId="99f36aab-062d-46da-b350-792d693af29c" valueTypeId="0a18f27a-c756-4740-bb19-3ce3f4faa2ab"/>
+    <managerType typeId="f08c5f20-30bd-408d-8f52-af311ddbd58d" valueTypeId="09f2002d-0ed6-4e9d-bc6c-b8eebb409648"/>
+  </producedTypes>
+  <name>Partner</name>
+  <synonym>
+    <key>en</key>
+    <value>Partner</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Partner.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Partner.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fa213807-016d-45ba-bc73-fb277199e80d">
+    <name>Telephon</name>
+    <synonym>
+      <key>en</key>
+      <value>Telephon</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c8f9cdc-0ad8-41f9-8840-80f0a7c3324c">
+  <name>ChainOfResponsibility</name>
+  <synonym>
+    <key>en</key>
+    <value>Chain of responsibility</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6477254d-331f-49f4-9c18-a3dffa5a9467"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8d2ae11a-4d2a-4da4-a87d-51b2af8008f5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="07f30af9-120d-4932-a705-58b9bf50bfb3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a3a67f63-79a8-4b1e-a0ff-e0068ff74164"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e4cbc4d9-4122-46e7-90c3-9c6bfa47adfe"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b1f975db-2958-445d-90ac-0a7e2cc6b2fb"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="68d0ae7c-47b7-4d13-af15-dd777e35b64a"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="ed62a2f7-f015-423e-8175-5b91da434e0a">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonModules>CommonModule.Initialize</commonModules>
+  <catalogs>Catalog.Partner</catalogs>
+  <catalogs>Catalog.Products</catalogs>
+  <catalogs>Catalog.Warehouse</catalogs>
+  <dataProcessors>DataProcessor.BaseHandler</dataProcessors>
+  <dataProcessors>DataProcessor.DeserializePartnerHandler</dataProcessors>
+  <dataProcessors>DataProcessor.DeserializeProductsHandler</dataProcessors>
+  <dataProcessors>DataProcessor.DeserializeWarehouseHandler</dataProcessors>
+</mdclass:Configuration>
