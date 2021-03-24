@@ -6,10 +6,10 @@ Function Init(Manager) Export
 	
 	For Each Document In DocumentsList Do
 	
-		Table = ProductsTableVisitor.GetTable(Document.GetObject());
+		Table = ProductsTableVisitor.GetTable(Document.Ref.GetObject());
 		
 		ManagerVisitor = DataProcessors.ManagerVisitor.Create();
-		ManagerVisitor.SetManager(Document.GetObject, Manager)
+		ManagerVisitor.SetManager(Document.Ref.GetObject(), Manager)
 	EndDo; 
 	
 EndFunction
@@ -23,15 +23,13 @@ Function GetDocuments()
 	Query = New Query;
 	Query.Text =
 		"SELECT
-		|	Picklist.Ref,
-		|	NULL
+		|	Picklist.Ref
 		|FROM
 		|	Document.Picklist AS Picklist
 		|
 		|UNION ALL
 		|
 		|SELECT
-		|	NULL,
 		|	SalesOrder.Ref
 		|FROM
 		|	Document.SalesOrder AS SalesOrder";
