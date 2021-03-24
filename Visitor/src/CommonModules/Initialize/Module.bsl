@@ -6,10 +6,15 @@ Function Init(Manager) Export
 	
 	For Each Document In DocumentsList Do
 	
-		Table = ProductsTableVisitor.GetTable(Document.Ref.GetObject());
+		DocumentObject = Document.Ref.GetObject(); // internal db call
+
+		// Dont use this pattern only for collecting info
+		// Use it for processing objects
+
+		Table = ProductsTableVisitor.GetTable(DocumentObject);
 		
 		ManagerVisitor = DataProcessors.ManagerVisitor.Create();
-		ManagerVisitor.SetManager(Document.Ref.GetObject(), Manager)
+		ManagerVisitor.SetManager(DocumentObject, Manager)
 	EndDo; 
 	
 EndFunction
